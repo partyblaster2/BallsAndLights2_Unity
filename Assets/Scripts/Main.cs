@@ -35,7 +35,7 @@ public class Main : MonoBehaviour
             Rigidbody body = Instantiate(ballPrefab, position, Quaternion.identity);
 
             // Sæt en fart i retning af strålen fra kameraet
-            body.velocity = ray.direction * 5.0f;
+            body.velocity = ray.direction * 7.0f;
             body.mass = 10.0f;
         }
 
